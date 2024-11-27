@@ -11,6 +11,9 @@ void main(){
   }
 // flower.remove("Rose");
 // flower.removeAt(3);
+
+flower.forEach(print);
+
 print("New data Edited !");
 flower.add("Lily");
 flower.addAll(["Pink Rose","Jasmine"]);
@@ -26,6 +29,7 @@ print("Flower on Last Index :");
 print(flower.last);
 print("Indexes checking :");
 print(flower.indexed);
+
 
 
 
