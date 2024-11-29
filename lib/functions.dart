@@ -55,7 +55,6 @@ return 'ID : $id Name : $fname  $lname';
 
 if (course == "IT") {
   return"Available";
-  
 }
 else{
   return"Not Available Try Again";
