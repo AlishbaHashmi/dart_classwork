@@ -19,6 +19,7 @@ bool course_Status=CourseDetails(id: 298, course: "IT")=="Available"? true:false
 print(course_Status);
 
 
+
 //Function Expression
 calculate(5, 5);
 
