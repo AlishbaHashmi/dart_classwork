@@ -38,6 +38,8 @@ f3.description();
 f3.flowerPrice();
 f3.availabilityCheck(Check: "Available \n");
 
+var f4=Flower.Customconstructor(234, "lily", 799);
+
 }
 
 // class Student{
@@ -82,6 +84,16 @@ Flower(ID,name,price){
  this.ID=ID;
  this.name=name;
  this.price=price;
+
+}
+
+//Custom Constructor
+
+Flower.Customconstructor(ID,name,price){
+this.ID=ID;
+ this.name=name;
+ this.price=price;
+ print("Flower object successfully created with name : $name ...!");
 
 }
 
